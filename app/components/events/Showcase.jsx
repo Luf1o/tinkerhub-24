@@ -5,13 +5,14 @@ function Showcase(){
             <div>
                 <span className='text-6xl text-bold ml-12'>SHOWCASE //</span>
             </div>
-            <div className='bg-red-100 w-auto h-auto flex gap-6 p-10'>
+            <div className='bg-red-100 w-auto h-auto flex gap-6 p-10 flex-wrap'>
                 <ShowcaseCard />
                 <ShowcaseCard />
                 <ShowcaseCard />
                 <ShowcaseCard />
                 <ShowcaseCard />
                 <ShowcaseCard />
+             
             </div>
         </div>
     )

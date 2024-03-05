@@ -3,6 +3,8 @@ import { PurpleButton } from "../common/PurpleHazeButton"
 import About from "../about/tinkerabout"
 import EventPreviewCard from "../events/EventsPreviewCard"
 import Showcase from "../events/Showcase"
+import TeamAbout from "../about/TeamAbout"
+
 export default function Landing(){
     return(
         <div>
@@ -24,6 +26,7 @@ export default function Landing(){
             </div>
         </div>
         <About />
+        <TeamAbout />
         <EventPreviewCard />
         <Showcase />
     </div>
