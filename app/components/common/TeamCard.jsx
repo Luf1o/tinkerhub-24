@@ -16,16 +16,16 @@ export default function TeamCard(){
                 <div className="w-2/3 h-full flex flex-col gap-10 justify-center pl-5">
                     <div className="flex">
                     <h3 className="text-5xl">Ricardo Milo</h3>
-                    <div className="px-3 py-2 ml-6 bg-purple-400 rounded-md text-black">
-                        <span>DEV LEAD</span>
+                    <div className="px-3 ml-6 bg-purple-400 rounded-md flex text-black items-center justify-center text-xl">
+                        <span className="">DEV LEAD</span>
                     </div>
                     </div>
                     <div className="w-full flex-wrap max-w-3xl text-justify">
                         <span className="text-lg ">{dummyVar}</span>
                     </div>
-                    <div className="flex-wrap flex ">
+                    <div className="flex-wrap flex w-full bg-slate-100">
                       {dummyNames.map((names)=>(
-                        <div key={names} className="bg-slate-100 text-black p-4 mb-2 "><span className="text-black">+</span> {names}</div>
+                        <div key={names} className="bg-slate-100 text-black p-4 mb-2"><span className="text-black">+</span> {names}</div>
                       ))}
                     </div>
                 </div>

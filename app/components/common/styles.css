@@ -1,0 +1,22 @@
+.sliderCard{
+    perspective: 150px;
+    z-index: 10;
+}
+.sliderCard:hover{
+    cursor: pointer; 
+}
+.sliderCard::after{
+    content: '';
+    display: flex;
+    width: 0px;
+    height: 100%;
+    background: rgba(0,0,0,0);
+    z-index: 15;
+    transform-origin: 100% 0%;
+    transform: translateX();
+    transition:  500ms ease-in;
+}
+.sliderCard:hover:after{
+    background: rgba(0,0,0,.8);
+    width: 100%;
+}
