@@ -3,9 +3,8 @@ import EventCard from "../common/EventCard";
 function EventPreviewCard(){
     return(
         <div>
-            <div className='w-full h-16 bg-white my-5 flex items-center'>
-                <nav className="flex border-2 gap-10 w-full h-full justifiy-evenly items-center 0 text-black text-2xl ">
-                    <div className="w-4/6"></div>
+            <div className='w-screen h-16 bg-white my-5 flex items-center'>
+                <nav className="flex border-2 gap-10 w-full h-full justify-center lg:justifiy-evenly items-center 0 text-black text-sm lg:text-2xl ">
                     <div className='w-1 h-9 bg-red-600'></div>
                         <div><span>EVENTS</span></div>
                         <div><span>WORKSHOP</span></div>

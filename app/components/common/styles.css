@@ -1,7 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .sliderCard{
     perspective: 150px;
     z-index: 10;
 }
+.eventName{
+    opacity: 1;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 .sliderCard:hover{
     cursor: pointer; 
 }
@@ -12,8 +24,6 @@
     height: 100%;
     background: rgba(0,0,0,0);
     z-index: 15;
-    transform-origin: 100% 0%;
-    transform: translateX();
     transition:  500ms ease-in;
 }
 .sliderCard:hover:after{

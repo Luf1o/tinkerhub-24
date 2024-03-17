@@ -5,7 +5,7 @@ function Card({textVar,position}){
         <div
             className={`flex ${
                 position === "left" ? "lg:flex-row-reverse flex-col " : "lg:flex-row flex-col"
-            } gap-4 lg:gap-12 lg:m-10 m-0  justify-center items-center lg:py-16 py-4`}
+            } gap-4 lg:gap-12 justify-center items-center max-w-screen-xl py-2`}
         >
             <div className="bg-purple-400 rounded-2xl">
                 <Image
@@ -17,14 +17,14 @@ function Card({textVar,position}){
                     height={200}
                 />
             </div>
-            <p className="lg:w-5/6  text-justify lg:text-xl">{textVar}</p>
+            <p className="xl:w-5/6 w-5/6 text-justify text-[12px] lg:text-2xl">{textVar}</p>
         </div>
     );
 }
 
 export default function About(){
     return(
-        <div className="flex flex-col h-auto w-5/6 lg:w-[1800px] items-center justify-center ">
+        <div className="flex flex-col h-auto items-center justify-center mt-10">
             <Card textVar={dummyVar} position={'left'} />
             <Card textVar={dummyVar} position={''} />
         </div>

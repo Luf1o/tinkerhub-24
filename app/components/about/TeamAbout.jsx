@@ -12,14 +12,14 @@ function TeamAbout(){
         console.log('Popup shown')
     }
     return(
-        <div className='w-full max-h-[720px] p-10 flex-col'>
-            <div>
-                <span className="text-6xl"> 
+        <div className='w-full mt-14 h-auto p-10 flex flex-col'>
+            <div className="flex my-8">
+                <span className="lg:text-[98px] w-full lg:text-left text-center text-4xl "> 
                     MEET THE TEAM
                 </span> 
             </div> 
-                <TeamCard />
-            <div className="flex w-full items-center justify-center gap-12 h-auto mt-6 p-1">
+            <TeamCard />
+            <div className=" sm:w-screen w-full items-center justify-center gap-12 h-auto mt-6 p-1 hidden">
                 <div className="p-1 rounded-md w-32 h-3 hover:cursor-pointer 'selected ===buttonId? bg-slate-300 : bg-slate-500'  " id='dev' onClick={sliderOnClick}></div>
                 <div className="p-1 rounded-md w-32 h-3 bg-slate-500 hover:cursor-pointer " id='cap'  onClick={sliderOnClick}></div>
                 <div className="p-1 rounded-md w-32 h-3 bg-slate-500"></div>

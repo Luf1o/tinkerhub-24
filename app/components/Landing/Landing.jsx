@@ -7,12 +7,12 @@ import TeamAbout from "../about/TeamAbout"
 
 export default function Landing(){
     return(
-        <div>
-            <div className='w-full  relative'>
-            <div className='flex justify-center litems-center max-h-[400px] lg:max-h-[800px] max-w-full m-2 lg:m-7'>
+        <div className="flex flex-col items-center">
+            <div className='max-w-max relative'>
+            <div className='flex justify-center litems-center max-h-[400px] lg:max-h-[800px] lg:max-w-fit max-w-[400px]'>
                 <Image className='lg:rounded-[50px] rounded-md'
                     src='/landing.webp'
-                    width={1920}
+                    width={1850}
                     height={500}
                     loading="lazy"
                     style={{objectFit: "cover"}}
@@ -28,7 +28,6 @@ export default function Landing(){
         <About />
         <TeamAbout />
         <EventPreviewCard />
-        <Showcase />
     </div>
     )
 }
