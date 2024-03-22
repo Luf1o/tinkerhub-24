@@ -1,8 +1,9 @@
 export default function Navbar(){
     return(
-        <nav className='w-screen h-12 flex'>
-            <div className='w-[120px] h-full bg-white rounded-lg mx-6'></div>
-
+        <nav className='w-screen h-auto flex px-2 py-4 justify-between'>
+            <div className='w-[120px] h-12 bg-white rounded-lg mx-6'></div>
+            <div className="w-auto p-4 bg-white"
+            ></div>
         </nav>
     )
 }

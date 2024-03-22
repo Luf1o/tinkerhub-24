@@ -6,6 +6,8 @@
 .sliderCard{
     perspective: 150px;
     z-index: 10;
+    color: transparent;
+    transition: 500ms ease-in-out;
 }
 .eventName{
     opacity: 1;
@@ -16,6 +18,7 @@
 
 .sliderCard:hover{
     cursor: pointer; 
+    color : white;
 }
 .sliderCard::after{
     content: '';

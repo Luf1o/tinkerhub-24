@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import TeamCard from "../components/common/TeamCard";
+
 function TeamAbout(){
     const [selected,setSelected] = useState(null);
     function sliderOnClick(buttonId){
