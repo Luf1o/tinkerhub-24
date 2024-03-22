@@ -1,4 +1,4 @@
-import EventCard from "../common/EventCard";
+import EventCard from "../components/common/EventCard";
 
 function EventPreviewCard(){
     return(

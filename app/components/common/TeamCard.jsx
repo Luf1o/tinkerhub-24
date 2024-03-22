@@ -1,4 +1,4 @@
-import { dummyNames,dummyVar } from "../about/aboutData"
+import { dummyNames,dummyVar } from "../../about/aboutData"
 import Image from "next/image"
 export default function TeamCard(){
     return(

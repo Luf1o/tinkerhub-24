@@ -1,4 +1,4 @@
-import ShowcaseCard from "../common/ShowcaseCard";
+import ShowcaseCard from "../components/common/ShowcaseCard";
 function Showcase(){
     return(
         <div className="w-screen h-auto border-t-8 mt-4 rounded-t-xl border-red-500">

@@ -1,12 +1,12 @@
 import Image from "next/image"
-import { PurpleButton } from "../common/PurpleHazeButton"
+import { PurpleButton } from "../components/common/PurpleHazeButton"
 import About from "../about/tinkerabout"
 import EventPreviewCard from "../events/EventsPreviewCard"
 import Showcase from "../events/Showcase"
 import TeamAbout from "../about/TeamAbout"
 
 export default function Landing(){
-    return(
+    return( 
         <div className="flex flex-col items-center">
             <div className='max-w-max relative'>
             <div className='flex justify-center litems-center max-h-[400px] lg:max-h-[800px] lg:max-w-fit max-w-[400px]'>
@@ -28,6 +28,7 @@ export default function Landing(){
         <About />
         <TeamAbout />
         <EventPreviewCard />
+        <Showcase />
     </div>
     )
 }
