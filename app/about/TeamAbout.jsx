@@ -14,9 +14,9 @@ function TeamAbout(){
     }
     return(
         <div className='w-full mt-14 h-auto p-10 flex flex-col'>
-            <div className="flex my-8">
-                <span className="lg:text-[98px] w-full lg:text-left text-center text-4xl "> 
-                    MEET THE TEAM
+            <div className="flex my-0">
+                <span className="lg:text-[98px] h-auto w-full lg:text-left text-center text-4xl "> 
+                    MEET THE TEAM   
                 </span> 
             </div> 
             <TeamCard />
