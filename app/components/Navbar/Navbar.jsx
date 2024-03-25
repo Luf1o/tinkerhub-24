@@ -1,16 +1,12 @@
 'use client'
-import { Navlinks } from "@/app/constants"
-import Link from "next/link"
 export default function Navbar(){
     return(
-        <nav className='w-screen h-auto flex px-2 py-4 justify-between'>
-            <div className='w-[120px] h-12 bg-white rounded-lg mx-6 text-center'>
-                <span className="text-black">Logo</span>
+        <nav className='w-screen h-auto flex flex-row-reverse px-2 py-4 justify-between'>
+            <div className='w-[120px] h-8 lg:h-12 bg-white rounded-lg lg:mx-6 mx-2 text-center'>
+                <span className="text-black flex justify-center items-center h-full">Hamburger</span>
             </div>
-            <div className="w-1/2 h-12 bg-white gap-2 text-black">
-                {Navlinks.map((links)=>{
-                    <Link href={links.href} key={links.key}>{links.title}</Link>
-                })}
+            <div>
+                <span className="ml-3 text-2xl">TinkerHub MITS LOGO</span>
             </div>
         </nav>
     )

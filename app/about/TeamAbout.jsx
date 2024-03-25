@@ -13,10 +13,10 @@ function TeamAbout(){
         console.log('Popup shown')
     }
     return(
-        <div className='w-full mt-14 h-auto p-10 flex flex-col'>
-            <div className="flex my-0">
-                <span className="lg:text-[98px] h-auto w-full lg:text-left text-center text-4xl "> 
-                    MEET THE TEAM   
+        <div className='w-full mt-14 h-auto p-0 lg:p-10 flex flex-col'>
+            <div className="flex my-0 w-full">
+                <span className="lg:text-[98px] h-auto w-full  text-center text-[65px] "> 
+                    TEAM / DEV TEAM
                 </span> 
             </div> 
             <TeamCard />
