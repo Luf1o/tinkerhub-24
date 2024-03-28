@@ -1,3 +1,4 @@
+import Footer from './components/Footer/page'
 import Navbar from './components/Navbar/Navbar'
 import './globals.css'
 import { Koulen} from 'next/font/google'
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={koulen.className}>
         <Navbar />
         {children}
-      
+        <Footer />
       </body>
     </html>
   )

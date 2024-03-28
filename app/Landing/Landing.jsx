@@ -32,6 +32,7 @@ export default function Landing(){
         </div>
         <About />
         <TeamAbout />
+        <EventPreviewCard />
         <Showcase />
     </div>
     )

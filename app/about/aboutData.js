@@ -3,5 +3,5 @@ export const dummyVar = "Lorem ipsum dolor sit amet, consectetur adipiscing elit
 export const dummyNames = [
      ['Rohit Sharma','Hardik Padya', 'Virat Kohli','Subhaman Gill','Ishan Kishan'],
      ['KL Rahul','Shreyas Iyer','Jaspret Bumrah','Axar Patel','Prithvi Shaw'],
-     ['Ravichandran Ashwin','Arshdeep Singh','Mohammed Siraj','Sreehari KS the Great'],
+     ['Ravichandran Ashwin','Arshdeep Singh','Mohammed Siraj','Sreehari KS '],
 ]
