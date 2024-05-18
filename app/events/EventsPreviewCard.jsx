@@ -1,6 +1,13 @@
+'use client'
+import { useState } from "react";
 import EventCard from "../components/common/EventCard";
 
 function EventPreviewCard(){
+    const [isOpen,setOpen] = useState(false);
+    const toggleMenu = () =>{
+        setOpen(!isOpen);
+        console.log(isOpen);
+    }
     return(
         <div>
             <div className='w-screen h-16 lg:h-24 bg-white my-5 flex items-center'>
@@ -12,12 +19,8 @@ function EventPreviewCard(){
                 </nav>
             </div>
             <div className="flex flex-wrap gap-10 lg:max-h-max lg:max-w-full place-content-center">            
-                <EventCard />
-                <EventCard />
-                <EventCard />
-                <EventCard />
-                <EventCard />
-                <EventCard />
+               <h1>Events</h1>
+               <h1>Events</h1>
         </div>
         </div>
     )
